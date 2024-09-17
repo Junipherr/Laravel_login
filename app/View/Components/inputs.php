@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Inputs extends Component
+class inputs extends Component
 {
     public $type;
     public $name;

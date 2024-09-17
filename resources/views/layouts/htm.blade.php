@@ -10,7 +10,6 @@
 <body>
        <main>
         <div class="container">
-            <!-- Here is where content injected from other views will go -->
             {{ $slot }}
         </div>
     </main>
