@@ -25,6 +25,7 @@ class AppServiceProvider extends ServiceProvider
    {
        // Register the class-based component
        Blade::component('htm-layout', HtmlLayout::class);
+       Blade::component('admin-layout', HtmlLayout::class);
    }   
 
 }
