@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #343a40; /* Dark background */
+    position: fixed; /* Fixed sidebar */
+    top: 0;
+    left: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-top: 20px;
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+#sidebar .nav-link {
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 0;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #495057; /* Hover effect */
+}
+
+#sidebar .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#content, #profile-page {
+    margin-left: 250px; /* Offset for sidebar */
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+#content {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+#profile-page {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item .active {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h5.card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
