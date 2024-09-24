@@ -3,6 +3,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow: hidden ;
 }
 
 #sidebar {
@@ -58,6 +59,7 @@ body {
 
 .navbar {
     background-color: #343a40;
+    overflow: hidden;
 }
 
 .navbar-nav .nav-link {

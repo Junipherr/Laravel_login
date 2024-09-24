@@ -1,10 +1,10 @@
 <x-admin-layout>
-    <x-navbar>
 
+    {{-- Navbar --}}
+    <x-navbar>
     </x-navbar>
 
     <x-sidebar>
-
         <div class="p-4 w-100" id="content">
             <h1>Welcome to the Dashboard</h1>
             <p>This is the content area. Add your widgets, charts, or other data here.</p>
